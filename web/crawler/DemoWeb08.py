@@ -9,6 +9,8 @@ response.encoding = "utf-8"
 print(response.text)
 
 print(response.cookies)
-
+print(response.cookies)
 print(response.content)
+print(response.cookies)
+print(response.content.decode("utf-8"))
 print(response.content.decode("utf-8"))
